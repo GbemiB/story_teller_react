@@ -6,8 +6,6 @@ import { FaCheck } from 'react-icons/fa';
 import React, { useState } from "react"
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
-import { NavLink } from "react-router-dom"
-
 const iconStyle = {
   fontSize: "1.5em",
   color: "#FFFFFF", 
@@ -52,10 +50,10 @@ function StoryTellerNavBar() {
         </button>
         <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}
           style={navMenu}>
-          <a class="nav-link" href=""  ><span style={iconStyle}><FaModx /></span>Onboarding</a>
-          <a class="nav-link" href=""  ><span style={iconStyle}><FaAsterisk /></span>Upload</a>
-          <a class="nav-link" href=""  ><span style={iconStyle}><FaInternetExplorer /></span>Tracking</a>
-          <a class="nav-link" href=""  ><span style={iconStyle}><FaCheck /></span>Performance</a>
+          <a class="nav-link" href=""  ><span style={ iconStyle }><FaModx /></span>Onboarding</a>
+          <a class="nav-link" href=""  ><span style={ iconStyle }><FaAsterisk /></span>Upload</a>
+          <a class="nav-link" href=""  ><span style={ iconStyle }><FaInternetExplorer /></span>Tracking</a>
+          <a class="nav-link" href=""  ><span style={ iconStyle }><FaCheck /></span>Performance</a>
           <a class="nav-link" href=""  onClick={() => closeMenu()}><span style={iconStyle}><MdClose /></span>Close</a>
         </ul>
       </nav>
