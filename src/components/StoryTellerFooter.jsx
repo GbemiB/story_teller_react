@@ -5,7 +5,7 @@ const footerContainer = {
 }
 
 const footerText = {
-    marginTop: "1rem"
+    marginTop: "0.5rem"
 }
 
 function StoryTellerFooter() {

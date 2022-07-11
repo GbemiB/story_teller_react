@@ -12,7 +12,7 @@ function StoryTellerHeader() {
     return (
         <div className="header-container">
             <header >
-                <h1 style={ headerTitle }>THE STORY TELLERS</h1>
+                <h1 style={ headerTitle }>INTENATIONAL STORY TELLERS</h1>
             </header>
         </div>
 
